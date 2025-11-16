@@ -18,7 +18,7 @@ app.use(cors({
 	origin: [
 		"http://localhost:5500",   // local frontend
 		"http://127.0.0.1:5500",   // some browsers use 127.0.0.1
-		"https://myfrontend.comhttps://advanced-web-dev-4frt.onrender.com"  // production domain
+		"https://advanced-web-dev-4frt.onrender.com"  // production domain
 	],
 	methods: ["GET", "POST", "PUT", "DELETE"],
 	allowedHeaders: ["Content-Type", "x-api-key"]
