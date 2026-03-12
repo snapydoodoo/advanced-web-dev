@@ -51,7 +51,7 @@ app.get('/health', (req, res) => {
 
 // Protected routes (API key required)
 // Option 1: Protect all /users routes
-app.use('/users', validateApiKey, userRoutes)
+
 app.use('/songs', validateApiKey, songRoutes)
 // Option 2: Only protect in production (easier for development)
 // app.use('/users', validateApiKeyProduction, userRoutes)
